@@ -46,8 +46,29 @@
   * [x] Ubuntu
   * [ ] Windows
   * [ ] MacOs
-  
----
 
 # TODO LIST
 #### _Let's exacly write point by point what I will be building_
+
+* Setup folders of aplication:
+  * [ ] add gitignore:
+    * [ ] ```node_modules .env```
+  * [ ] Create Client folder:
+    * [ ] ```npm yarn global add create-react-app ```
+    * [ ] ```npm create-react-app client ```
+  * [ ] Create Server folder:
+    * [ ] ```npm yarn add express body-parser cookie-parser mongoose ```
+    * [ ] ```npm yarn add @types/express @types/body-parser @types/cookie-parser @types/mongoose -D ```
+* Setup of backend:
+  * [ ] Set typescript:
+    * [ ] ```npm yarn add typescript ts-node ```
+    * [ ] ```npm yarn add @types/ts-node -D ```
+    * [ ] Create of tslint.json
+  * [ ] Set dev env:
+    * [ ] ```npm yarn add nodemon -D ```
+    * [ ] Create yarn run scripts ``` dev build ```
+  * [ ] Set a simple server:
+    * [ ]  Create ``` server.js ```
+    * [ ] Create ``` app.js ```
+    
+***More todo soon***
