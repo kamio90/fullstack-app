@@ -47,28 +47,35 @@
   * [ ] Windows
   * [ ] MacOs
 
+# SETTINGS
+#### _Some settings to save_
+* Client
+  * port: 3000
+
 # TODO LIST
 #### _Let's exacly write point by point what I will be building_
 
-* Setup folders of aplication:
-  * [ ] add gitignore:
-    * [ ] ```node_modules .env```
-  * [ ] Create Client folder:
-    * [ ] ```npm yarn global add create-react-app ```
-    * [ ] ```npm create-react-app client ```
-  * [ ] Create Server folder:
-    * [ ] ```npm yarn add express body-parser cookie-parser mongoose ```
-    * [ ] ```npm yarn add @types/express @types/body-parser @types/cookie-parser @types/mongoose -D ```
-* Setup of backend:
-  * [ ] Set typescript:
-    * [ ] ```npm yarn add typescript ts-node ```
-    * [ ] ```npm yarn add @types/ts-node -D ```
-    * [ ] Create of tslint.json
-  * [ ] Set dev env:
-    * [ ] ```npm yarn add nodemon -D ```
-    * [ ] Create yarn run scripts ``` dev build ```
-  * [ ] Set a simple server:
-    * [ ]  Create ``` server.js ```
-    * [ ] Create ``` app.js ```
+* Day 1:
+  * Setup folders of aplication:
+    * [x] add gitignore:
+      * [x] ```node_modules .env```
+    * [x] Create Client folder:
+      * [x] ```npm yarn global add create-react-app ```
+      * [x] ```npm create-react-app client --typescript ```
+    * [x] Create Server folder:
+      * [x] ```npm yarn add express body-parser cookie-parser mongoose ```
+      * [x] ```npm yarn add @types/express @types/body-parser @types/cookie-parser @types/mongoose -D ```
+  * Setup of backend:
+    * [x] Set typescript:
+      * [x] ```npm yarn add typescript ts-node ```
+      * [x] ```npm yarn add @types/ts-node -D ```
+      * [x] Create of tslint.json
+      * [x] Setup tslint config
+    * [ ] Set dev env:
+      * [x] ```npm yarn add nodemon -D ```
+      * [x] Create yarn run scripts ``` dev build ```
+    * [x] Set a simple server:
+      * [x]  Create ``` server.js ```
+      * [x] Create ``` app.js ```
     
 ***More todo soon***
