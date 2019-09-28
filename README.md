@@ -13,7 +13,7 @@
   * Probably every day
 
 * ### ***How we can check your progress?***
-  * I will be streaming every day at week on different hours on [link](https://www.twitch.tv/kamio90)
+  * I will be streaming every day at week on different hours on [twitch.tv/kamio90](https://www.twitch.tv/kamio90)
 
 # TECHNOLOGY STACK:
 #### _This is my stack technology but i will check things that i will use in this project_
@@ -84,7 +84,9 @@
       * [ ] add method to connect to database on class App
   * Setup of frontend:
     * [ ] File structure
-    * [ ] Create form
-    * [ ] Validate form
+    * [ ] Home page component
+      * [ ] Add form 
+      * [ ] Simple style
+      * [ ] Get data from form
 
 ***More todo soon***
