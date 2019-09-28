@@ -71,11 +71,20 @@
       * [x] ```npm yarn add @types/ts-node -D ```
       * [x] Create of tslint.json
       * [x] Setup tslint config
-    * [ ] Set dev env:
+    * [x] Set dev env:
       * [x] ```npm yarn add nodemon -D ```
       * [x] Create yarn run scripts ``` dev build ```
     * [x] Set a simple server:
       * [x]  Create ``` server.js ```
       * [x] Create ``` app.js ```
-    
+* Day 2:
+  * Setup of backend:
+    * [ ] Database connection
+      * [ ] local database mongodb
+      * [ ] add method to connect to database on class App
+  * Setup of frontend:
+    * [ ] File structure
+    * [ ] Create form
+    * [ ] Validate form
+
 ***More todo soon***
