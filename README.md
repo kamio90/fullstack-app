@@ -105,14 +105,14 @@
           * [x] errorMiddleware
         * [x] Create Model:
           * [x] userModel
-        * [ ] Create Authentication
+        * [x] Create Authentication
           * [x] ```npm yarn add jsonwebtoken bcrypt```
           * [x] ```npm yarn add @types/jsonwebtoken @types/bcrypt -D``` 
           * [x] Service
           * [x] Controller
             * [x] register user
-            * [ ] log in
-            * [ ] log out
+            * [x] log in
+            * [x] log out
 
 * Day 3:
   * Setup of frontend:
