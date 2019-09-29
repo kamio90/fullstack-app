@@ -79,23 +79,49 @@
         * [x] Create ``` app.js ```
 * Day 2:
     * Setup of backend:
-        * [ ] Database connection
-            * [ ] local database mongodb
-            * [ ] add method to connect to database on class App
-            * [ ] Get info about success database connection
-        * [ ] Hold user info 
-            * [ ] Create auth contoller
-            * [ ] Autorization with JWT
-            * [ ] Create user interface
-            * [ ] Create user dto
-            * [ ] install ```npm yarn add class-validator ```
-    * Setup of frontend:
-        * [ ] File structure
-        * [ ] Home page component
-            * [ ] Add form 
-            * [ ] Simple style
-            * [ ] Get data from form
-            * [ ] Try to validate data from form (by your self || package)
-            * [ ] Make object to send it to backend
+        * [x] Create Exceptions
+          * [x] Http
+          * [x] WrongCredentials
+          * [x] UserWithThatEmailAlreadyExists
+        * [x] Database connection:
+            * [x] local database mongodb
+            * [x] add method to connect to database on class App
+            * [x] Get info about success database connection
+        * [x] Create Interfaces:
+          * [x] TokenData
+          * [x] User
+          * [x] Controller
+        * [x] Create Dto: 
+          * [x] install ```npm yarn add class-validator ```
+          * [x] install ```npm yarn add @types/class-validator ```
+          * [x] LoginDto
+          * [x] CreateUserDto
+        * [x] Create Middleware: 
+          * [x] ```npm yarn add body-parser cookie-parser class-transformer```
+          * [x] ```npm yarn add @types/body-parser @types/cookie-parser @types/class-transformer -D``` 
+          * [x] validationMiddleware
+          * [x] body-parser
+          * [x] cookie-parser
+          * [x] errorMiddleware
+        * [x] Create Model:
+          * [x] userModel
+        * [ ] Create Authentication
+          * [x] ```npm yarn add jsonwebtoken bcrypt```
+          * [x] ```npm yarn add @types/jsonwebtoken @types/bcrypt -D``` 
+          * [x] Service
+          * [x] Controller
+            * [x] register user
+            * [ ] log in
+            * [ ] log out
+
+* Day 3:
+  * Setup of frontend:
+    * [ ] File structure
+    * [ ] Home page component
+      * [ ] Add form 
+      * [ ] Simple style
+          * [ ] Get data from form
+          * [ ] Try to validate data from form (by your self || package)
+          * [ ] Make object to send it to backend
 
 ***More todo soon***
