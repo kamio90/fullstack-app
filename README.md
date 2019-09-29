@@ -67,26 +67,35 @@
       * [x] ```npm yarn add @types/express @types/body-parser @types/cookie-parser @types/mongoose -D ```
   * Setup of backend:
     * [x] Set typescript:
-      * [x] ```npm yarn add typescript ts-node ```
-      * [x] ```npm yarn add @types/ts-node -D ```
-      * [x] Create of tslint.json
-      * [x] Setup tslint config
+        * [x] ```npm yarn add typescript ts-node ```
+        * [x] ```npm yarn add @types/ts-node -D ```
+        * [x] Create of tslint.json
+        * [x] Setup tslint config
     * [x] Set dev env:
-      * [x] ```npm yarn add nodemon -D ```
-      * [x] Create yarn run scripts ``` dev build ```
+        * [x] ```npm yarn add nodemon -D ```
+        * [x] Create yarn run scripts ``` dev build ```
     * [x] Set a simple server:
-      * [x]  Create ``` server.js ```
-      * [x] Create ``` app.js ```
+        * [x]  Create ``` server.js ```
+        * [x] Create ``` app.js ```
 * Day 2:
-  * Setup of backend:
-    * [ ] Database connection
-      * [ ] local database mongodb
-      * [ ] add method to connect to database on class App
-  * Setup of frontend:
-    * [ ] File structure
-    * [ ] Home page component
-      * [ ] Add form 
-      * [ ] Simple style
-      * [ ] Get data from form
+    * Setup of backend:
+        * [ ] Database connection
+            * [ ] local database mongodb
+            * [ ] add method to connect to database on class App
+            * [ ] Get info about success database connection
+        * [ ] Hold user info 
+            * [ ] Create auth contoller
+            * [ ] Autorization with JWT
+            * [ ] Create user interface
+            * [ ] Create user dto
+            * [ ] install ```npm yarn add class-validator ```
+    * Setup of frontend:
+        * [ ] File structure
+        * [ ] Home page component
+            * [ ] Add form 
+            * [ ] Simple style
+            * [ ] Get data from form
+            * [ ] Try to validate data from form (by your self || package)
+            * [ ] Make object to send it to backend
 
 ***More todo soon***
