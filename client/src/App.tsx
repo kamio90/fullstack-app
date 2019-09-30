@@ -1,9 +1,13 @@
 import React from 'react';
+import Home from './componets/home/home.componet';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 const App: React.FC = () => {
   return (
     <div>
-      <h1>Klient został skonfigurowany</h1>
+      <Home />
     </div>
   );
 }

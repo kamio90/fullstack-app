@@ -43,9 +43,17 @@
   * [x] Yarn
   * [ ] npm
 * Operating System:
-  * [x] Ubuntu
-  * [ ] Windows
+  * [ ] Ubuntu
+  * [x] Windows
   * [ ] MacOs
+* Programming languages:
+  * [x] Javascript
+    * [x] NodeJS
+    * [ ] ReactNative
+    * [x] Typescript
+  * [ ] C#
+    * [ ] .Net
+    * [ ] Xamarin
 
 # SETTINGS
 #### _Some settings to save_
@@ -115,13 +123,30 @@
             * [x] log out
 
 * Day 3:
+  * Setup of backend:
+    * [x] Create Exceptions
+      * [x] postNotFound
+      * [x] authTokenMissing
+      * [x] wrongAuthToken 
+    * [x] Create Interfaces:
+      * [x] requsetwithUser
+      * [x] post
+    * [x] Create Dto: 
+      * [x] post
+    * [x] Create Middleware: 
+      * [x] authMiddleware
+    * [x] Create Controller
+      * [x] post
+    * [x] Create Model:
+      * [x] postModel
   * Setup of frontend:
-    * [ ] File structure
-    * [ ] Home page component
-      * [ ] Add form 
-      * [ ] Simple style
-          * [ ] Get data from form
+    * [x] File structure
+    * [x] Home page component
+      * [x] Add form 
+      * [x] Simple style
+          * [x] Get data from form
           * [ ] Try to validate data from form (by your self || package)
           * [ ] Make object to send it to backend
 
 ***More todo soon***
+
